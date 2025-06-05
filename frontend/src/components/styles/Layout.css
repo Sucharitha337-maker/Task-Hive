@@ -1,0 +1,36 @@
+/* src/components/styles/Layout.css */
+.layout {
+    min-height: 100vh;
+    background-color: #f9fafc;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #002b5c;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .page-content {
+    padding: 24px;
+  }
+  

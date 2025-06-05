@@ -1,0 +1,98 @@
+.project-list-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 32px;
+}
+
+.project-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #1f2937;
+}
+
+.project-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.create-project-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.create-project-btn:hover {
+  background-color: #0056b3;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.project-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  color: #1f2937;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.project-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.project-search-bar {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.project-search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.project-search-bar button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.project-search-bar button:hover {
+  background-color: #0056b3;
+}
+
