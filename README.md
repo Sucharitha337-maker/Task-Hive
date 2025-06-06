@@ -19,7 +19,7 @@ A full-stack task and project management platform built for teams to organize, t
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Frontend | Backend           | Database           | Auth        |
 | -------- | ----------------- | ------------------ | ----------- |
@@ -30,6 +30,30 @@ A full-stack task and project management platform built for teams to organize, t
 ## Entity Relationship Diagram
 
 ![ERD](docs/erd.png)
+
+### Signup
+![Sign up](docs/signup.png)
+
+### Login
+[!Login](docs/login.png)
+
+### Dashboard View
+![Dashboard](docs/dashboard.png)
+
+### Create Task Form
+![Create Task](doc/create-taskform.png)
+
+### Task Details View
+![Task Details](docs/task_details.png)
+
+### Task Assignment
+![Task Assignment](docs/assign_user_to_task.png)
+
+### Project Creation
+![Project Creation](docs/project_creation.png)
+
+### Project Tasks View
+![Project Tasks View](docs/project_tasks_view.png)
 
 ---
 
