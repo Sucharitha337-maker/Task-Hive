@@ -55,50 +55,78 @@ A full-stack task and project management platform built for teams to organize, t
 ### Project Tasks View
 ![Project Tasks View](docs/project_tasks_view.png)
 
+## 🛠️ Setup Instructions
+
+Follow these steps to run the project locally.
+
 ---
 
-## ⚙️ Setup Instructions
+### 1. **Clone the Repository**
 
-1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/task-hive.git
+cd Task-Hive
+```
 
-   ```bash
-   git clone https://github.com/your-username/task-management-app.git
-   cd task-management-app
-   ```
+---
 
-2. **Install dependencies**
+### 2. **Install Dependencies**
 
-   ```bash
-   # For frontend
-   cd client
-   npm install
+#### 🔧 Backend (Node.js + Express)
 
-   # For backend
-   cd ../server
-   npm install
-   ```
+```bash
+cd task-management-backend
+npm install
+```
 
-3. **Configure environment variables**
-   Create a `.env` file in `server/`:
+#### 🎨 Frontend (React.js)
 
-   ```env
-   PORT=5000
-   DB_HOST=localhost
-   DB_USER=youruser
-   DB_PASS=yourpass
-   DB_NAME=task_management
-   JWT_SECRET=your_secret_key
-   ```
+```bash
+cd ../frontend
+npm install
+```
 
-4. **Run the app**
+---
 
-   ```bash
-   # Backend
-   cd server
-   npm run dev
+### 3. **Configure Environment Variables**
 
-   # Frontend
-   cd ../client
-   npm start
-   ```
+Set the variables of `.env` file in the `task-management-backend/` directory based on the provided input fields.
+
+---
+
+### 4. **Set Up the Database**
+
+* Make sure MySQL is running.
+* Create the `task_management` database.
+* Run your schema and stored procedure SQL files (e.g., `schema.sql`, `procedures.sql`) to set up tables, relations, and logic.
+
+```sql
+CREATE DATABASE task_management;
+-- Then import your schema file
+```
+
+---
+
+### 5. **Start the Development Servers**
+
+#### 🚀 Start Backend
+
+```bash
+cd task-management-backend
+npm run dev
+```
+
+#### 🌐 Start Frontend
+
+```bash
+cd ../frontend
+npm start
+```
+
+The app will be available at:
+🔗 `http://localhost:3000` (Frontend)
+🔗 `http://localhost:5000` (Backend API)
+
+
+
 
