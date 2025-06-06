@@ -41,7 +41,7 @@ A full-stack task and project management platform built for teams to organize, t
 ![Dashboard](docs/task_dashboard.png)
 
 ### Create Task Form
-![Create Task](doc/create_taskform.png)
+![Create Task](docs/create_taskform.png)
 
 ### Task Details View
 ![Task Details](docs/task_details.png)
